@@ -13,4 +13,3 @@ function halve(x) {
 function multiplier(a, b) {
   return b % 2 === 0 ? double(times(a, halve(b))) : a + times(a, halve(b - 1));
 }
-\
